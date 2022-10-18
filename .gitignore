@@ -46,3 +46,7 @@ buck-out/
 
 # CocoaPods
 /ios/Pods/
+
+# VS Code
+.vscode/*
+!.vscode/extensions.json
