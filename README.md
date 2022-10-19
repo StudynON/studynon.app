@@ -10,50 +10,48 @@ Com esse aplicativo, o problema acaba. 😍
 
 ## Stack utilizada
 
-React Native, TypeScript, Styled Components, Moti, Lottie e React Navigation.
+- React Native e TypeScript;
+- React Navigation;
+- Styled Components;
+- Lottie;
+- Moti.
 
 ## Rodando localmente
 
 > Nesse projeto é usado apenas o Yarn como gerenciador de pacotes. Recomendamos que faça o mesmo, prevenindo eventuais problemas. Veja o website oficial do Yarn [aqui](https://yarnpkg.com/).
 
-Clone o projeto
 
+### Rodando o app
+>Para continuar, requer que tenha já feito as instalações em sua máquina referente a JDK11 e as SDKs (android). Caso não, você pode seguir a [documentação oficial do React Native](https://reactnative.dev/docs/environment-setup) ou a da [Rocketseat](https://react-native.rocketseat.dev/) a qual está em português.
+
+1. Clone o projeto
 ```bash
-  git clone https://github.com/dansenpir/owlrangenotes-mobile
+git clone https://github.com/dansenpir/owlrangenotes-mobile
 ```
 
-Entre no diretório do projeto
-
+2. Entre no diretório do projeto e instale as dependências
 ```bash
-  cd owlrangenotes-mobile
+cd owlrangenotes-mobile && yarn install
 ```
 
-Instale as dependências
+3. Inicie as dependências mobile e instale o app
+Neste passo, você estará iniciando as dependências do mobile, no caso os arquivos nas pastas  ```ios/``` e/ou ```android/``` serão criadas. Este processo é feito apenas uma vez.
+Este mesmo comando é responsável por buildar uma versão do app de desenvolvimento em seu emulador ou dispositivo conectado ao USB [(Configurar o ADB talvez seja necessário)](https://reactnative.dev/docs/running-on-device).
 
 ```bash
-  yarn install
+yarn android
+yarn ios # Somente se estiver em um macOS.
 ```
 
-Rodar o React Native - Android e IOS
-
+4. Suba o Metro (server bundler):
 ```bash
-  yarn start
+yarn start
 ```
 
-Rodar o React Native - Android
+Com estes passos, você estará com o app instalado.
 
-```bash
-  yarn run android
-```
-
-Rodar o React Native - IOS
-
-```bash
-  yarn run ios
-```
-
+### Adicionais
 Rodar testes (Jest)
-
 ```bash
   yarn test
 ```
