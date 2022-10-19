@@ -1,4 +1,4 @@
-[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/) 
+[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
 
 # Owlrange Mobile 📱
 
@@ -22,7 +22,7 @@ Com esse aplicativo, o problema acaba. 😍
 
 
 ### Rodando o app
->Para continuar, requer que tenha já feito as instalações em sua máquina referente a JDK11 e as SDKs (android). Caso não, você pode seguir a [documentação oficial do React Native](https://reactnative.dev/docs/environment-setup) ou a da [Rocketseat](https://react-native.rocketseat.dev/) a qual está em português.
+>Para continuar, requer que tenha já feito as instalações em sua máquina referente a JDK11 e as SDKs (Android). Caso não, você pode seguir a [documentação oficial do React Native](https://reactnative.dev/docs/environment-setup) ou a da [Rocketseat](https://react-native.rocketseat.dev/) a qual está em português.
 
 1. Clone o projeto
 ```bash
@@ -31,7 +31,7 @@ git clone https://github.com/dansenpir/owlrangenotes-mobile
 
 2. Entre no diretório do projeto e instale as dependências
 ```bash
-cd owlrangenotes-mobile && yarn install
+cd owlrangenotes-mobile && yarn
 ```
 
 3. Crie uma chave de assinatura para buildar o app
