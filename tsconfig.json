@@ -5,7 +5,7 @@
     "useDefineForClassFields": true,
     "allowJs": false,
     "skipLibCheck": true,
-    "esModuleInterop": false,
+    "esModuleInterop": true, /* Imports CommonJS like ES6 */
     "allowSyntheticDefaultImports": true,
     "strict": true,
     "forceConsistentCasingInFileNames": true,
