@@ -34,16 +34,27 @@ git clone https://github.com/dansenpir/owlrangenotes-mobile
 cd owlrangenotes-mobile && yarn install
 ```
 
-3. Inicie as dependências mobile e instale o app
+3. Crie uma chave de assinatura para buildar o app
+No passo a seguir, você criará uma keystore (chave de assinatura) no ```android/app/```
+```bash
+cd android/app &&
+keytool -genkey -v -keystore debug.keystore -storepass android -alias androiddebugkey -keypass android -keyalg RSA -keysize 2048 -validity 10000 &&
+cd ../..
+```
+> Você pode preencher o formulário ou apenas ir apertando enter e depois yes
+
+
+4. Inicie as dependências mobile e instale o app
 Neste passo, você estará iniciando as dependências do mobile, no caso os arquivos nas pastas  ```ios/``` e/ou ```android/``` serão criadas. Este processo é feito apenas uma vez.
 Este mesmo comando é responsável por buildar uma versão do app de desenvolvimento em seu emulador ou dispositivo conectado ao USB [(Configurar o ADB talvez seja necessário)](https://reactnative.dev/docs/running-on-device).
 
+> Certifique-se de estar na raíz do projeto (owlrangenotes-mobile/)
 ```bash
 yarn android
 yarn ios # Somente se estiver em um macOS.
 ```
 
-4. Suba o Metro (server bundler):
+5. Suba o Metro (server bundler):
 ```bash
 yarn start
 ```
