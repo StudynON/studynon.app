@@ -1,9 +1,11 @@
 import { createDrawerNavigator } from '@react-navigation/drawer';
+import AddMaterial from '../screens/AddMaterial';
 import Home from '../screens/Home';
 
 const Drawer = createDrawerNavigator();
 
 function DrawerNavigator() {
+
   return (
     <Drawer.Navigator>
       <Drawer.Screen
@@ -11,6 +13,14 @@ function DrawerNavigator() {
         component={Home}
         options={{
           title: 'Home',
+          headerTitle: 'Owlrange Notes',
+        }}
+      />
+      <Drawer.Screen
+        name="Materials"
+        component={AddMaterial}
+        options={{
+          title: 'Adicionar material',
           headerTitle: 'Owlrange Notes',
         }}
       />
