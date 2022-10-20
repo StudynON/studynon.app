@@ -1,5 +1,5 @@
 {
-  "extends": "@tsconfig/react-native/tsconfig.json", /* Recommended React Native TSConfig base */
+  "extends": "@tsconfig/react-native/tsconfig.json",
   "compilerOptions": {
     "target": "ESNext",
     "useDefineForClassFields": true,
@@ -14,9 +14,8 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
+    "types": ["styled-components-react-native", "react-native"],
   },
-  "include": [
-    "src"
-  ],
+  "include": ["src"]
 }
