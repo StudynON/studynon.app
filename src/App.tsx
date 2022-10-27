@@ -1,8 +1,7 @@
-import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { ThemeProvider } from 'styled-components';
-import theme from './global/styles/theme';
 import DrawerNavigator from './routes/HomeDrawerNavigator';
+import { theme } from './constants/theme';
 
 export default function App() {
   return (
