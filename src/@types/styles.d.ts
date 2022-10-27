@@ -8,8 +8,7 @@ declare module 'styled-components' {
   export type ColorsType =
     | 'background'
     | 'text'
-    | 'subtitle'
-    | 'quote'
+    | 'caption'
     | 'section'
     | 'white'
     | 'active'
@@ -45,6 +44,19 @@ declare module 'styled-components' {
     caption: TypographyProps;
     italic: TypographyProps;
   }
+
+  export type TypographyType =
+    | 'h1Bold'
+    | 'h1Medium'
+    | 'h1Regular'
+    | 'h2Bold'
+    | 'h2Medium'
+    | 'h2Regular'
+    | 'h3Bold'
+    | 'h3Medium'
+    | 'h3Regular'
+    | 'caption'
+    | 'italic';
 
   export interface DefaultTheme {
     colors: PaletteType;

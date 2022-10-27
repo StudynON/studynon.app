@@ -1,7 +1,7 @@
 import { NavigationContainer } from '@react-navigation/native';
 import { ThemeProvider } from 'styled-components';
-import DrawerNavigator from './routes/HomeDrawerNavigator';
-import { theme } from './constants/theme';
+import { theme } from '../constants/theme';
+import DrawerNavigator from '../routes/HomeDrawerNavigator';
 
 export default function App() {
   return (
