@@ -1,12 +1,10 @@
-import React from 'react';
 import { View } from 'react-native';
-
-import { Title } from './styled';
+import Typography from '../../components/Typography';
 
 export default function Home() {
   return (
     <View>
-      <Title>Home</Title>
+      <Typography>Home</Typography>
     </View>
   );
 }
