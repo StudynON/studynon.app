@@ -1,7 +1,7 @@
 import { NativeStackNavigationProp } from '@react-navigation/native-stack';
 
 declare global {
-  export type SignInStackParamsList = {
+  export type StudentAreaStackParamsList = {
     studentArea: undefined;
     createMaterials: undefined;
     studyMaterials: undefined;
@@ -9,8 +9,8 @@ declare global {
     goalsSchedule: undefined;
   };
 
-  export type SignInStackNavigatorProps = NativeStackNavigationProp<
-    SignInStackParamsList,
+  export type StudentAreaStackNavigatorProps = NativeStackNavigationProp<
+    StudentAreaStackParamsList,
     'studentArea'
   >;
 }

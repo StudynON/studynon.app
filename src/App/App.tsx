@@ -1,13 +1,13 @@
 import { NavigationContainer } from '@react-navigation/native';
 import { ThemeProvider } from 'styled-components';
 import { theme } from '../constants/theme';
-import DrawerNavigator from '../routes/HomeDrawerNavigator';
+import Routes from '../navigations';
 
 export default function App() {
   return (
     <ThemeProvider theme={theme}>
       <NavigationContainer>
-        <DrawerNavigator />
+        <Routes />
       </NavigationContainer>
     </ThemeProvider>
   );
