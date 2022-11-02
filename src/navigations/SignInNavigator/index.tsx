@@ -8,7 +8,7 @@ const FakeScreen = () => <View />;
 
 const SignInNavigator = () => {
   return (
-    <Stack.Navigator initialRouteName="onBoarding">
+    <Stack.Navigator initialRouteName="onBoarding" screenOptions={{headerShown: false}}>
       <Stack.Screen name="onBoarding" component={FakeScreen} />
       <Stack.Screen name="access" component={FakeScreen} />
       <Stack.Screen name="login" component={FakeScreen} />
