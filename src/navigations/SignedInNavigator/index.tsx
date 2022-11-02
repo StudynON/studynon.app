@@ -5,7 +5,8 @@ import {
 } from '@react-navigation/drawer';
 import { View } from 'react-native';
 import Icon from '../../components/Icons';
-import { WrapperIconMenu } from './styles';
+import { WrapperIconMenu, WrapperLogo } from './styles';
+import Logo from '../../components/Logo';
 
 const Drawer = createDrawerNavigator<DrawerParamList>();
 
@@ -15,7 +16,7 @@ interface IButtonNavigation {
   navigation: DrawerNavigationProp<DrawerParamList>;
 }
 
-const Container = ({ navigation }: IButtonNavigation) => {
+const DrawerMenu = ({ navigation }: IButtonNavigation) => {
   return (
     <WrapperIconMenu onPress={() => navigation.openDrawer()}>
       <Icon icon="iconMenu" size={24} />
@@ -30,15 +31,20 @@ const SignedInNavigator = () => {
       screenOptions={({ navigation }) => ({
         drawerPosition: 'right',
         drawerType: 'back',
-        headerRight: () => <Container navigation={navigation} />,
-        headerLeft: () => false,
+        headerRight: () => <DrawerMenu navigation={navigation} />,
+        headerLeft: () => (
+          <WrapperLogo>
+            <Logo />
+          </WrapperLogo>
+        ),
+        headerTitle: '',
       })}
     >
-      <Drawer.Screen name="studentArea" component={FakeScreen} />
-      <Drawer.Screen name="configuration" component={FakeScreen} />
-      <Drawer.Screen name="goalsSchedule" component={FakeScreen} />
-      <Drawer.Screen name="profile" component={FakeScreen} />
-      <Drawer.Screen name="studyMaterials" component={FakeScreen} />
+      <Drawer.Screen name="profile" component={FakeScreen} options={{title: 'Perfil'}} />
+      <Drawer.Screen name="studentArea" component={FakeScreen} options={{title: 'Area do Estudante'}} />
+      <Drawer.Screen name="goalsSchedule" component={FakeScreen} options={{title: 'Cronograma de Metas'}} />
+      <Drawer.Screen name="studyMaterials" component={FakeScreen} options={{title: 'Material de Estudo'}} />
+      <Drawer.Screen name="configuration" component={FakeScreen} options={{title: 'Configurações'}} />
     </Drawer.Navigator>
   );
 };
