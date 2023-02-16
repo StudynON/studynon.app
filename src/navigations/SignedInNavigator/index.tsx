@@ -1,4 +1,3 @@
-import React from 'react';
 import {
   createDrawerNavigator,
   DrawerNavigationProp,
@@ -7,6 +6,7 @@ import { View } from 'react-native';
 import Icon from '../../components/Icons';
 import { WrapperIconMenu, WrapperLogo } from './styles';
 import Logo from '../../components/Logo';
+import StudentArea from '../../screens/StudentArea';
 
 const Drawer = createDrawerNavigator<DrawerParamList>();
 
@@ -40,11 +40,31 @@ const SignedInNavigator = () => {
         headerTitle: '',
       })}
     >
-      <Drawer.Screen name="profile" component={FakeScreen} options={{title: 'Perfil'}} />
-      <Drawer.Screen name="studentArea" component={FakeScreen} options={{title: 'Area do Estudante'}} />
-      <Drawer.Screen name="goalsSchedule" component={FakeScreen} options={{title: 'Cronograma de Metas'}} />
-      <Drawer.Screen name="studyMaterials" component={FakeScreen} options={{title: 'Material de Estudo'}} />
-      <Drawer.Screen name="configuration" component={FakeScreen} options={{title: 'Configurações'}} />
+      <Drawer.Screen
+        name="studentArea"
+        component={StudentArea}
+        options={{ title: 'Area do Estudante' }}
+      />
+      <Drawer.Screen
+        name="profile"
+        component={FakeScreen}
+        options={{ title: 'Perfil' }}
+      />
+      <Drawer.Screen
+        name="goalsSchedule"
+        component={FakeScreen}
+        options={{ title: 'Cronograma de Metas' }}
+      />
+      <Drawer.Screen
+        name="studyMaterials"
+        component={FakeScreen}
+        options={{ title: 'Material de Estudo' }}
+      />
+      <Drawer.Screen
+        name="configuration"
+        component={FakeScreen}
+        options={{ title: 'Configurações' }}
+      />
     </Drawer.Navigator>
   );
 };
