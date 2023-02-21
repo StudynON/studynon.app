@@ -7,25 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* OwlrangeNotesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* OwlrangeNotesTests.m */; };
-		0C80B921A6F3F58F76C31292 /* libPods-OwlrangeNotes.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-OwlrangeNotes.a */; };
+		00E356F31AD99517003FC87E /* StudynONTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* StudynONTests.m */; };
+		0C80B921A6F3F58F76C31292 /* libPods-StudynON.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-StudynON.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		146B9FC049BF4EAA97567258 /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D13D4453555E44E0BF2D5B14 /* Roboto-BlackItalic.ttf */; };
-		1D3A563DF8334567B861617E /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A33EF2EFAFFC4FA1983D5E3A /* Roboto-Light.ttf */; };
-		28E08914C520493B9E9EB0F1 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8C64E66B007B4E3AA3B89EEE /* Roboto-Black.ttf */; };
-		296E31DBFD98494CB25AB8E2 /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AB9B8EE430B346848E782298 /* Roboto-LightItalic.ttf */; };
-		2D5721C65B9942C58FA65D3C /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D68D47D5F7454B4191EA6F79 /* Roboto-MediumItalic.ttf */; };
-		50DF45EED6064E79BB4E22E6 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE997C7F306E4B2885D21B59 /* Roboto-Bold.ttf */; };
-		6FB8464FD55849EEA0C3F3B8 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CDE07B04040A44A4B615D456 /* Roboto-Regular.ttf */; };
-		7699B88040F8A987B510C191 /* libPods-OwlrangeNotes-OwlrangeNotesTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-OwlrangeNotes-OwlrangeNotesTests.a */; };
+		7699B88040F8A987B510C191 /* libPods-StudynON-StudynONTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-StudynON-StudynONTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		8979254EB3104CABA7D4C557 /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC9C239E03954B278B7BD80B /* Roboto-ThinItalic.ttf */; };
-		8ABD7FA23782420FB354940E /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1794325C59E44FB19CE7D8A0 /* Roboto-Medium.ttf */; };
-		D64409009C1045A5B48D83DF /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0E64CB0BBF3243DF85271A8C /* Roboto-Italic.ttf */; };
-		D6E82206E7D04118BBB99F25 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8A2E3E65C94249A3895647F2 /* Roboto-Thin.ttf */; };
-		F37349ADDE8F45DABDA48703 /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6181CF975BF445ADA1668289 /* Roboto-BoldItalic.ttf */; };
+		A364C00E2C6647958E849762 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 182F6C2AB6BB43C3A250EC21 /* Roboto-Black.ttf */; };
+		7A5456501A184C5C97B7CD5E /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 90359C25A20B4A2A840064D3 /* Roboto-BlackItalic.ttf */; };
+		63903E8CC1EC437A8D56AC96 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F28938A6EAF641D593312423 /* Roboto-Bold.ttf */; };
+		7759005732204525AA85BA49 /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 557BC6CA42FE4B6ABF4394AA /* Roboto-BoldItalic.ttf */; };
+		5E073E03A0824B11AA6FD017 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8A8F280DF640432796EDAB4E /* Roboto-Italic.ttf */; };
+		8744E5F71B8D40A691E4ABB9 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 41A4B4C6B2D94DD396855127 /* Roboto-Light.ttf */; };
+		0B13F8F1D0624026873BC7E9 /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1DC094531B384A5BA828158C /* Roboto-LightItalic.ttf */; };
+		7EABF86BDCF64D70BEDD36AD /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CFA3A73C32894AB89F3AE387 /* Roboto-Medium.ttf */; };
+		1C5E16D1E3694D748ADD7A14 /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CDB20D7649EB4C18AD238AD0 /* Roboto-MediumItalic.ttf */; };
+		4DD5EBD111E74DA7941FC317 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 11524F7E67F94999A7D3AC65 /* Roboto-Regular.ttf */; };
+		ED93396516124282ACD2DA06 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4F7F1D2ADC5D4364AC876703 /* Roboto-Thin.ttf */; };
+		A137FA57FB1B451199C6C093 /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 515C9DEB801C48A397DA7EA3 /* Roboto-ThinItalic.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,40 +34,40 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = OwlrangeNotes;
+			remoteInfo = StudynON;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00E356EE1AD99517003FC87E /* OwlrangeNotesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OwlrangeNotesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* StudynONTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StudynONTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* OwlrangeNotesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OwlrangeNotesTests.m; sourceTree = "<group>"; };
-		0E64CB0BBF3243DF85271A8C /* Roboto-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Italic.ttf"; path = "../assets/fonts/Roboto-Italic.ttf"; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* OwlrangeNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OwlrangeNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = OwlrangeNotes/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = OwlrangeNotes/AppDelegate.mm; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = OwlrangeNotes/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = OwlrangeNotes/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = OwlrangeNotes/main.m; sourceTree = "<group>"; };
-		1794325C59E44FB19CE7D8A0 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Medium.ttf"; path = "../assets/fonts/Roboto-Medium.ttf"; sourceTree = "<group>"; };
-		19F6CBCC0A4E27FBF8BF4A61 /* libPods-OwlrangeNotes-OwlrangeNotesTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OwlrangeNotes-OwlrangeNotesTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B4392A12AC88292D35C810B /* Pods-OwlrangeNotes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OwlrangeNotes.debug.xcconfig"; path = "Target Support Files/Pods-OwlrangeNotes/Pods-OwlrangeNotes.debug.xcconfig"; sourceTree = "<group>"; };
-		5709B34CF0A7D63546082F79 /* Pods-OwlrangeNotes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OwlrangeNotes.release.xcconfig"; path = "Target Support Files/Pods-OwlrangeNotes/Pods-OwlrangeNotes.release.xcconfig"; sourceTree = "<group>"; };
-		5B7EB9410499542E8C5724F5 /* Pods-OwlrangeNotes-OwlrangeNotesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OwlrangeNotes-OwlrangeNotesTests.debug.xcconfig"; path = "Target Support Files/Pods-OwlrangeNotes-OwlrangeNotesTests/Pods-OwlrangeNotes-OwlrangeNotesTests.debug.xcconfig"; sourceTree = "<group>"; };
-		5DCACB8F33CDC322A6C60F78 /* libPods-OwlrangeNotes.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OwlrangeNotes.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6181CF975BF445ADA1668289 /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-BoldItalic.ttf"; path = "../assets/fonts/Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = OwlrangeNotes/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		89C6BE57DB24E9ADA2F236DE /* Pods-OwlrangeNotes-OwlrangeNotesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OwlrangeNotes-OwlrangeNotesTests.release.xcconfig"; path = "Target Support Files/Pods-OwlrangeNotes-OwlrangeNotesTests/Pods-OwlrangeNotes-OwlrangeNotesTests.release.xcconfig"; sourceTree = "<group>"; };
-		8A2E3E65C94249A3895647F2 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Thin.ttf"; path = "../assets/fonts/Roboto-Thin.ttf"; sourceTree = "<group>"; };
-		8C64E66B007B4E3AA3B89EEE /* Roboto-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Black.ttf"; path = "../assets/fonts/Roboto-Black.ttf"; sourceTree = "<group>"; };
-		A33EF2EFAFFC4FA1983D5E3A /* Roboto-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Light.ttf"; path = "../assets/fonts/Roboto-Light.ttf"; sourceTree = "<group>"; };
-		AB9B8EE430B346848E782298 /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-LightItalic.ttf"; path = "../assets/fonts/Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
-		CDE07B04040A44A4B615D456 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Regular.ttf"; path = "../assets/fonts/Roboto-Regular.ttf"; sourceTree = "<group>"; };
-		D13D4453555E44E0BF2D5B14 /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-BlackItalic.ttf"; path = "../assets/fonts/Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
-		D68D47D5F7454B4191EA6F79 /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-MediumItalic.ttf"; path = "../assets/fonts/Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
-		DE997C7F306E4B2885D21B59 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Bold.ttf"; path = "../assets/fonts/Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* StudynONTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StudynONTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* StudynON.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudynON.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = StudynON/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = StudynON/AppDelegate.mm; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = StudynON/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = StudynON/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = StudynON/main.m; sourceTree = "<group>"; };
+		19F6CBCC0A4E27FBF8BF4A61 /* libPods-StudynON-StudynONTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-StudynON-StudynONTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B4392A12AC88292D35C810B /* Pods-StudynON.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StudynON.debug.xcconfig"; path = "Target Support Files/Pods-StudynON/Pods-StudynON.debug.xcconfig"; sourceTree = "<group>"; };
+		5709B34CF0A7D63546082F79 /* Pods-StudynON.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StudynON.release.xcconfig"; path = "Target Support Files/Pods-StudynON/Pods-StudynON.release.xcconfig"; sourceTree = "<group>"; };
+		5B7EB9410499542E8C5724F5 /* Pods-StudynON-StudynONTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StudynON-StudynONTests.debug.xcconfig"; path = "Target Support Files/Pods-StudynON-StudynONTests/Pods-StudynON-StudynONTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5DCACB8F33CDC322A6C60F78 /* libPods-StudynON.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-StudynON.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = StudynON/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		89C6BE57DB24E9ADA2F236DE /* Pods-StudynON-StudynONTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StudynON-StudynONTests.release.xcconfig"; path = "Target Support Files/Pods-StudynON-StudynONTests/Pods-StudynON-StudynONTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		FC9C239E03954B278B7BD80B /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-ThinItalic.ttf"; path = "../assets/fonts/Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		182F6C2AB6BB43C3A250EC21 /* Roboto-Black.ttf */ = {isa = PBXFileReference; name = "Roboto-Black.ttf"; path = "../assets/fonts/Roboto-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		90359C25A20B4A2A840064D3 /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; name = "Roboto-BlackItalic.ttf"; path = "../assets/fonts/Roboto-BlackItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F28938A6EAF641D593312423 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; name = "Roboto-Bold.ttf"; path = "../assets/fonts/Roboto-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		557BC6CA42FE4B6ABF4394AA /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; name = "Roboto-BoldItalic.ttf"; path = "../assets/fonts/Roboto-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8A8F280DF640432796EDAB4E /* Roboto-Italic.ttf */ = {isa = PBXFileReference; name = "Roboto-Italic.ttf"; path = "../assets/fonts/Roboto-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		41A4B4C6B2D94DD396855127 /* Roboto-Light.ttf */ = {isa = PBXFileReference; name = "Roboto-Light.ttf"; path = "../assets/fonts/Roboto-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1DC094531B384A5BA828158C /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; name = "Roboto-LightItalic.ttf"; path = "../assets/fonts/Roboto-LightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CFA3A73C32894AB89F3AE387 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; name = "Roboto-Medium.ttf"; path = "../assets/fonts/Roboto-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CDB20D7649EB4C18AD238AD0 /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; name = "Roboto-MediumItalic.ttf"; path = "../assets/fonts/Roboto-MediumItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		11524F7E67F94999A7D3AC65 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; name = "Roboto-Regular.ttf"; path = "../assets/fonts/Roboto-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4F7F1D2ADC5D4364AC876703 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; name = "Roboto-Thin.ttf"; path = "../assets/fonts/Roboto-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		515C9DEB801C48A397DA7EA3 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; name = "Roboto-ThinItalic.ttf"; path = "../assets/fonts/Roboto-ThinItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7699B88040F8A987B510C191 /* libPods-OwlrangeNotes-OwlrangeNotesTests.a in Frameworks */,
+				7699B88040F8A987B510C191 /* libPods-StudynON-StudynONTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,20 +83,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C80B921A6F3F58F76C31292 /* libPods-OwlrangeNotes.a in Frameworks */,
+				0C80B921A6F3F58F76C31292 /* libPods-StudynON.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* OwlrangeNotesTests */ = {
+		00E356EF1AD99517003FC87E /* StudynONTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* OwlrangeNotesTests.m */,
+				00E356F21AD99517003FC87E /* StudynONTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = OwlrangeNotesTests;
+			path = StudynONTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -107,7 +107,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* OwlrangeNotes */ = {
+		13B07FAE1A68108700A75B9A /* StudynON */ = {
 			isa = PBXGroup;
 			children = (
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
@@ -117,15 +117,15 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = OwlrangeNotes;
+			name = StudynON;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				5DCACB8F33CDC322A6C60F78 /* libPods-OwlrangeNotes.a */,
-				19F6CBCC0A4E27FBF8BF4A61 /* libPods-OwlrangeNotes-OwlrangeNotesTests.a */,
+				5DCACB8F33CDC322A6C60F78 /* libPods-StudynON.a */,
+				19F6CBCC0A4E27FBF8BF4A61 /* libPods-StudynON-StudynONTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -140,13 +140,13 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* OwlrangeNotes */,
+				13B07FAE1A68108700A75B9A /* StudynON */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* OwlrangeNotesTests */,
+				00E356EF1AD99517003FC87E /* StudynONTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
-				888346671E5E4D398D62A471 /* Resources */,
+				5313C5CB838C4F51B897FC8D /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -156,49 +156,49 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* OwlrangeNotes.app */,
-				00E356EE1AD99517003FC87E /* OwlrangeNotesTests.xctest */,
+				13B07F961A680F5B00A75B9A /* StudynON.app */,
+				00E356EE1AD99517003FC87E /* StudynONTests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		888346671E5E4D398D62A471 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				8C64E66B007B4E3AA3B89EEE /* Roboto-Black.ttf */,
-				D13D4453555E44E0BF2D5B14 /* Roboto-BlackItalic.ttf */,
-				DE997C7F306E4B2885D21B59 /* Roboto-Bold.ttf */,
-				6181CF975BF445ADA1668289 /* Roboto-BoldItalic.ttf */,
-				0E64CB0BBF3243DF85271A8C /* Roboto-Italic.ttf */,
-				A33EF2EFAFFC4FA1983D5E3A /* Roboto-Light.ttf */,
-				AB9B8EE430B346848E782298 /* Roboto-LightItalic.ttf */,
-				1794325C59E44FB19CE7D8A0 /* Roboto-Medium.ttf */,
-				D68D47D5F7454B4191EA6F79 /* Roboto-MediumItalic.ttf */,
-				CDE07B04040A44A4B615D456 /* Roboto-Regular.ttf */,
-				8A2E3E65C94249A3895647F2 /* Roboto-Thin.ttf */,
-				FC9C239E03954B278B7BD80B /* Roboto-ThinItalic.ttf */,
-			);
-			name = Resources;
-			path = "";
 			sourceTree = "<group>";
 		};
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3B4392A12AC88292D35C810B /* Pods-OwlrangeNotes.debug.xcconfig */,
-				5709B34CF0A7D63546082F79 /* Pods-OwlrangeNotes.release.xcconfig */,
-				5B7EB9410499542E8C5724F5 /* Pods-OwlrangeNotes-OwlrangeNotesTests.debug.xcconfig */,
-				89C6BE57DB24E9ADA2F236DE /* Pods-OwlrangeNotes-OwlrangeNotesTests.release.xcconfig */,
+				3B4392A12AC88292D35C810B /* Pods-StudynON.debug.xcconfig */,
+				5709B34CF0A7D63546082F79 /* Pods-StudynON.release.xcconfig */,
+				5B7EB9410499542E8C5724F5 /* Pods-StudynON-StudynONTests.debug.xcconfig */,
+				89C6BE57DB24E9ADA2F236DE /* Pods-StudynON-StudynONTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		5313C5CB838C4F51B897FC8D /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				182F6C2AB6BB43C3A250EC21 /* Roboto-Black.ttf */,
+				90359C25A20B4A2A840064D3 /* Roboto-BlackItalic.ttf */,
+				F28938A6EAF641D593312423 /* Roboto-Bold.ttf */,
+				557BC6CA42FE4B6ABF4394AA /* Roboto-BoldItalic.ttf */,
+				8A8F280DF640432796EDAB4E /* Roboto-Italic.ttf */,
+				41A4B4C6B2D94DD396855127 /* Roboto-Light.ttf */,
+				1DC094531B384A5BA828158C /* Roboto-LightItalic.ttf */,
+				CFA3A73C32894AB89F3AE387 /* Roboto-Medium.ttf */,
+				CDB20D7649EB4C18AD238AD0 /* Roboto-MediumItalic.ttf */,
+				11524F7E67F94999A7D3AC65 /* Roboto-Regular.ttf */,
+				4F7F1D2ADC5D4364AC876703 /* Roboto-Thin.ttf */,
+				515C9DEB801C48A397DA7EA3 /* Roboto-ThinItalic.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* OwlrangeNotesTests */ = {
+		00E356ED1AD99517003FC87E /* StudynONTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "OwlrangeNotesTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "StudynONTests" */;
 			buildPhases = (
 				A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -212,14 +212,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = OwlrangeNotesTests;
-			productName = OwlrangeNotesTests;
-			productReference = 00E356EE1AD99517003FC87E /* OwlrangeNotesTests.xctest */;
+			name = StudynONTests;
+			productName = StudynONTests;
+			productReference = 00E356EE1AD99517003FC87E /* StudynONTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* OwlrangeNotes */ = {
+		13B07F861A680F5B00A75B9A /* StudynON */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "OwlrangeNotes" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "StudynON" */;
 			buildPhases = (
 				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -234,9 +234,9 @@
 			);
 			dependencies = (
 			);
-			name = OwlrangeNotes;
-			productName = OwlrangeNotes;
-			productReference = 13B07F961A680F5B00A75B9A /* OwlrangeNotes.app */;
+			name = StudynON;
+			productName = StudynON;
+			productReference = 13B07F961A680F5B00A75B9A /* StudynON.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -256,7 +256,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "OwlrangeNotes" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "StudynON" */;
 			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -269,8 +269,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* OwlrangeNotes */,
-				00E356ED1AD99517003FC87E /* OwlrangeNotesTests */,
+				13B07F861A680F5B00A75B9A /* StudynON */,
+				00E356ED1AD99517003FC87E /* StudynONTests */,
 			);
 		};
 /* End PBXProject section */
@@ -289,18 +289,18 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-				28E08914C520493B9E9EB0F1 /* Roboto-Black.ttf in Resources */,
-				146B9FC049BF4EAA97567258 /* Roboto-BlackItalic.ttf in Resources */,
-				50DF45EED6064E79BB4E22E6 /* Roboto-Bold.ttf in Resources */,
-				F37349ADDE8F45DABDA48703 /* Roboto-BoldItalic.ttf in Resources */,
-				D64409009C1045A5B48D83DF /* Roboto-Italic.ttf in Resources */,
-				1D3A563DF8334567B861617E /* Roboto-Light.ttf in Resources */,
-				296E31DBFD98494CB25AB8E2 /* Roboto-LightItalic.ttf in Resources */,
-				8ABD7FA23782420FB354940E /* Roboto-Medium.ttf in Resources */,
-				2D5721C65B9942C58FA65D3C /* Roboto-MediumItalic.ttf in Resources */,
-				6FB8464FD55849EEA0C3F3B8 /* Roboto-Regular.ttf in Resources */,
-				D6E82206E7D04118BBB99F25 /* Roboto-Thin.ttf in Resources */,
-				8979254EB3104CABA7D4C557 /* Roboto-ThinItalic.ttf in Resources */,
+				A364C00E2C6647958E849762 /* Roboto-Black.ttf in Resources */,
+				7A5456501A184C5C97B7CD5E /* Roboto-BlackItalic.ttf in Resources */,
+				63903E8CC1EC437A8D56AC96 /* Roboto-Bold.ttf in Resources */,
+				7759005732204525AA85BA49 /* Roboto-BoldItalic.ttf in Resources */,
+				5E073E03A0824B11AA6FD017 /* Roboto-Italic.ttf in Resources */,
+				8744E5F71B8D40A691E4ABB9 /* Roboto-Light.ttf in Resources */,
+				0B13F8F1D0624026873BC7E9 /* Roboto-LightItalic.ttf in Resources */,
+				7EABF86BDCF64D70BEDD36AD /* Roboto-Medium.ttf in Resources */,
+				1C5E16D1E3694D748ADD7A14 /* Roboto-MediumItalic.ttf in Resources */,
+				4DD5EBD111E74DA7941FC317 /* Roboto-Regular.ttf in Resources */,
+				ED93396516124282ACD2DA06 /* Roboto-Thin.ttf in Resources */,
+				A137FA57FB1B451199C6C093 /* Roboto-ThinItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,15 +329,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-OwlrangeNotes/Pods-OwlrangeNotes-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-StudynON/Pods-StudynON-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-OwlrangeNotes/Pods-OwlrangeNotes-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-StudynON/Pods-StudynON-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OwlrangeNotes/Pods-OwlrangeNotes-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StudynON/Pods-StudynON-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
@@ -355,7 +355,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-OwlrangeNotes-OwlrangeNotesTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-StudynON-StudynONTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -377,7 +377,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-OwlrangeNotes-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-StudynON-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -390,15 +390,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-OwlrangeNotes-OwlrangeNotesTests/Pods-OwlrangeNotes-OwlrangeNotesTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-StudynON-StudynONTests/Pods-StudynON-StudynONTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-OwlrangeNotes-OwlrangeNotesTests/Pods-OwlrangeNotes-OwlrangeNotesTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-StudynON-StudynONTests/Pods-StudynON-StudynONTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OwlrangeNotes-OwlrangeNotesTests/Pods-OwlrangeNotes-OwlrangeNotesTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StudynON-StudynONTests/Pods-StudynON-StudynONTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
@@ -407,15 +407,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-OwlrangeNotes/Pods-OwlrangeNotes-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-StudynON/Pods-StudynON-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-OwlrangeNotes/Pods-OwlrangeNotes-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-StudynON/Pods-StudynON-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OwlrangeNotes/Pods-OwlrangeNotes-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StudynON/Pods-StudynON-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
@@ -424,15 +424,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-OwlrangeNotes-OwlrangeNotesTests/Pods-OwlrangeNotes-OwlrangeNotesTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-StudynON-StudynONTests/Pods-StudynON-StudynONTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-OwlrangeNotes-OwlrangeNotesTests/Pods-OwlrangeNotes-OwlrangeNotesTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-StudynON-StudynONTests/Pods-StudynON-StudynONTests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OwlrangeNotes-OwlrangeNotesTests/Pods-OwlrangeNotes-OwlrangeNotesTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StudynON-StudynONTests/Pods-StudynON-StudynONTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -461,7 +461,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* OwlrangeNotesTests.m in Sources */,
+				00E356F31AD99517003FC87E /* StudynONTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -479,7 +479,7 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* OwlrangeNotes */;
+			target = 13B07F861A680F5B00A75B9A /* StudynON */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -487,14 +487,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-OwlrangeNotes-OwlrangeNotesTests.debug.xcconfig */;
+			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-StudynON-StudynONTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = OwlrangeNotesTests/Info.plist;
+				INFOPLIST_FILE = StudynONTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -508,17 +508,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OwlrangeNotes.app/OwlrangeNotes";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StudynON.app/StudynON";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-OwlrangeNotes-OwlrangeNotesTests.release.xcconfig */;
+			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-StudynON-StudynONTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = OwlrangeNotesTests/Info.plist;
+				INFOPLIST_FILE = StudynONTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -532,30 +532,31 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OwlrangeNotes.app/OwlrangeNotes";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StudynON.app/StudynON";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-OwlrangeNotes.debug.xcconfig */;
+			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-StudynON.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = OwlrangeNotes/Info.plist;
+				INFOPLIST_FILE = StudynON/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = OwlrangeNotes;
+				PRODUCT_NAME = StudynON;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -564,23 +565,24 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-OwlrangeNotes.release.xcconfig */;
+			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-StudynON.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = OwlrangeNotes/Info.plist;
+				INFOPLIST_FILE = StudynON/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = OwlrangeNotes;
+				PRODUCT_NAME = StudynON;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -619,7 +621,7 @@
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -653,7 +655,6 @@
 					"-DFOLLY_MOBILE=1",
 					"-DFOLLY_USE_LIBCPP=1",
 				);
-				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -691,7 +692,7 @@
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -717,7 +718,6 @@
 					"-DFOLLY_MOBILE=1",
 					"-DFOLLY_USE_LIBCPP=1",
 				);
-				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -726,7 +726,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "OwlrangeNotesTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "StudynONTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -735,7 +735,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "OwlrangeNotes" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "StudynON" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -744,7 +744,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "OwlrangeNotes" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "StudynON" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
